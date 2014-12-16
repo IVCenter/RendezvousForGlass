@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/left_column"
+        android:layout_width="@dimen/glass_card_left_column_width"
+        android:layout_height="match_parent"
+        >
+
+        <!-- Put widgets for the left column inside this RelativeLayout. -->
+        <TextView
+            android:id="@+id/information"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/hello_world"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="@color/black"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/glass_card_body_height"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/glass_card_two_column_margin"
+        android:layout_toRightOf="@+id/left_column"
+        tools:ignore="UselessLeaf"
+        >
+
+        <!-- Put widgets for the right column inside this RelativeLayout. -->
+        <ImageView
+            android:id="@+id/static_map_pic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:scaleType="center"
+            android:contentDescription="@string/map_description"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

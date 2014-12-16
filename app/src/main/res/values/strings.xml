@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rendezvous</string>
+    <string name="title_activity_rendezvous_service">Rendezvous</string>
+    <string name="action_stop">Quit</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="map_description">here is a google map</string>
+    <string name="API_KEY">AIzaSyA5rxiYjaez7giNQegUFWXHCM4hdodJyko</string>
+
+</resources>
